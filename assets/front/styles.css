@@ -90,7 +90,7 @@
     }
     .industry__item {
         flex-direction: column;
-        max-width: 22%;
+        width: calc(1/4*100% - (1 - 1/4)*30px);
         gap: 30px;
     }
     .industry__icon {
@@ -120,8 +120,5 @@
 @media (min-width: 1500px) {
     .industry-section {
         max-width: 1220px;
-    }
-    .industry__item {
-        max-width: 23%;
     }
 }
